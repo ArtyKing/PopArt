@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>Online Pop Art Community</title>
+
+</head>
+
+<body style="background-color:gray;">
+
+  <!----- Top Navigation Bar ----->
+
+  <div class="topnav">
+      <a href="../home/index.html">Home</a>
+      <a href="../history/index.html">History</a>
+      <a href="../artists/index.html">Artists</a>
+      <a class="active" href="../community/index.html">Community</a>
+      <a href="../quiz/index.html">Quiz</a>
+      <button onclick="document.location='../community/index.html'" id="submitArt">Submit Your Art</button>
+  </div>
+  <br>
+  
+  <!----- Introduction Animation ----->
+
+  <div class = "intro">
+    <h1 class = "logo-header">
+      <span class="logo">Explore your local community.</span>
+    </h1>
+  </div>
+
+  <script src="introscript.js"></script>
+
+  <!----- User Input Form ----->
+  <form>
+   <ul>
+    <li>
+      <label for="name">Username:</label>
+      <input type="text" id="name" name="userName">
+    </li>
+    <li>
+      <label for="name">Password:</label>
+      <input type="text" id="pass" name="userPass">
+    </li>
+   </ul>
+   <div class="button">
+    <button type="button" onClick = "create()">Create an Account</button>
+    <button type="button" onClick = "validate()">Sign In</button>
+  </div>
+  </form>
+  
+  <script src="accountMgr.js"></script>
+
+  <!----- Footer ------>
+
+  <div class="footer">
+    <p class="footer-text-left">
+      <a href="index.html" class="menu">Copyright</a>
+        <t>&nbsp&nbsp&nbsp&nbsp</t>
+        <a href="index.html" class="menu">Privacy Policy</a>
+        <t>&nbsp&nbsp&nbsp&nbsp</t>
+        <a href="index.html" class="menu">Terms of Use</a> 
+        <a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+        <t>Contact Us:</t>
+        <div class="footer-content-right">
+        <a href="https://github.com/ArtyKing/PopArt"><img src="../images/github.jpeg" class="icon-style" alt="Github icon"></a>
+        <a href="https://twitter.com/hashtag/popart"><img src="../images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
+        <a href="mailto:arthur.wang@ucc.on.ca"><img src="../images/email.jpeg" class="icon-style" alt="Emailicon"></a>
+      </div>
+      </p>
+  </div>
+
+</body>
+</html>

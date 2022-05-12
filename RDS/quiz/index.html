@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@100&display=swap" rel="stylesheet">
+	<title>Online Pop Art Community</title>
+</head>
+
+<body style="background-color:gray;">
+
+	<!----- Top Navigation Bar ----->
+
+	<div class="topnav">
+	  	<a href="../home/index.html">Home</a>
+	  	<a href="../history/index.html">History</a>
+	  	<a href="../artists/index.html">Artists</a>
+	  	<a href="../community/index.html">Community</a>
+	  	<a class="active" href="../quiz/index.html">Quiz</a>
+	  	<button onclick="document.location='../community/index.html'" id="submitArt">Submit Your Art</button>
+	</div>
+
+	<!----- Introduction Animation ----->
+
+	<div class = "intro">
+		<h1 class = "logo-header">
+			<span class="logo">Ready&nbsp&nbsp</span><span class = "logo">to&nbsp&nbsp</span><span class = "logo">test&nbsp&nbsp</span><span class="logo">your&nbsp&nbsp</span><span class = "logo"> knowledge?</span>
+		</h1>
+	</div>
+
+	<script src="introscript.js"></script>
+
+	<!----- Skeletal Structure for quiz ----->
+
+	<div id="quiz"></div>
+	<button id="submit">Get Results</button>
+	<div id="results"></div>
+
+	<script src="quiz.js"></script>
+
+	<br><br><br><br><br><br>
+
+	<!----- Footer ------>
+
+	<div class="footer">
+ 		<p class="footer-text-left">
+ 			<a href="index.html" class="menu">Copyright</a>
+    		<t>&nbsp&nbsp&nbsp&nbsp</t>
+    		<a href="index.html" class="menu">Privacy Policy</a>
+    		<t>&nbsp&nbsp&nbsp&nbsp</t>
+    		<a href="index.html" class="menu">Terms of Use</a> 
+    		<a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a>
+   			<t>Contact Us:</t>
+   			<div class="footer-content-right">
+			  <a href="https://github.com/ArtyKing/PopArt"><img src="../images/github.jpeg" class="icon-style" alt="Github icon"></a>
+			  <a href="https://twitter.com/hashtag/popart"><img src="../images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
+			  <a href="mailto:arthur.wang@ucc.on.ca"><img src="../images/email.jpeg" class="icon-style" alt="Emailicon"></a>
+			</div>
+  		</p>
+	</div>
+
+</body>
+</html>
